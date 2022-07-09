@@ -18,7 +18,7 @@ class StreamShow extends React.Component {
     
     render(){
         console.log(this.videoRef)
-        if(!this.props.stream) return <div>Loading...</div>
+        if(!this.props.stream) return <div>Loading....</div>
         return (<div>
             <video ref={this.videoRef} style={{width:"100%"}} controls={true}></video>
             <h1>{this.props.stream.Tittle}</h1>
