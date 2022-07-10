@@ -27,7 +27,7 @@ class StreamList extends React.Component {
   renderList() {
     return this.props.streams.map((stream) => {
       return (
-        <div className="container-fluid list-group-item " key={stream.id}>
+        <div className="container-fluid list-group-item" key={stream.id}>
           <div className="row">
             <i className="bi bi-cast col-md-auto"></i>
             <div className="col-md-auto">

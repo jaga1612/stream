@@ -8,6 +8,7 @@ import StreamShow from "./streams/streamshow";
 import Header from "./header";
 import history from "../history"
 import { Switch } from "react-router-dom";
+import "../App.css"
 
 const App = () =>{
     return (
